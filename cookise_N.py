@@ -273,10 +273,10 @@ class FacebookCommenter:
                 print('\033[1;36m' + ' [[✓]] ︻╦デ╤━╼●▬▬▬▬๑۩𝐍𝐄𝐗𝐓 𝐈𝐃࿋ོ༙☬●─────𖣘︎─────●☬࿋ོ༙𝐍𝐄𝐗𝐓 𝐀𝐂𝐂𝐔𝐍𝐓 ۩๑▬▬▬▬▬●╾━╤デ╦︻-')
                 print('\033[1;32;40m' + ' Status :: Active')
                 e =datetime.now()                
-                print (e.strftime("\033[1;33m【Date】:: %d-%m-%Y "))
+                print (e.strftime("\033[1;33m【DATE】:: %d-%m-%Y "))
                 print (e.strftime("\033[1;33m【TIME】:: %I:%M:%S %p"))
                          
-                print("\033[1;36mComment sent successfully✫●▬▬▬▬๑۩𒊹︻╦デ╤━╼𝐒𝐀𝐌𝐄𝐄𝐑 𝐓𝐎𝐎𝐋╾━╤デ╦︻𒊹︎۩๑▬▬▬▬▬●✫ :: {comment}")
+                print("\033[1;36m𝗖𝗢𝗠𝗠𝗘𝗡𝗧 𝗦𝗘𝗡𝗧 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟 ✫●▬▬▬▬๑۩𒊹︻╦デ╤━╼𝗡𝗔𝗗𝗘𝟯𝗠 𝐓𝐎𝐎𝐋╾━╤デ╦︻𒊹︎۩๑▬▬▬▬▬●✫ :: {comment}")
         
 
 
@@ -290,9 +290,9 @@ class FacebookCommenter:
                  
                  
                                  
-                 post_id = input("\033[1;34m[[•]] GARGET POST POST ID ➼: ").strip()
+                 post_id = input("\033[1;33m[❌] TAGET POST ID ➼: ").strip()
                  
-            comments_file = input("[\033[1;32m[[•]] ENTER COMMENT FILE ➼: "). strip()
+            comments_file = input("[\033[1;32m[📚] ENTER COMMENT FILE ➼: "). strip()
             
             with open(comments_file, 'r') as file:
                 comments = file.readlines()
