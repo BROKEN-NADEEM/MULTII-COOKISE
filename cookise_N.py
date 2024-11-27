@@ -142,30 +142,32 @@ def Subscraption():
       ██║╚██╗██║██╔══██║██║  ██║██╔══╝   ╚═══██╗██║╚██╔╝██║    ██╔══██║██║   ██║
       ██║ ╚████║██║  ██║██████╔╝███████╗██████╔╝██║ ╚═╝ ██║    ██║  ██║╚██████╔╝
 ╔═════════════════════════════════════════════════════════════════════════════════════╗
-║  \033[1;31mN4M3       : BROKEN-NADEEM           GOD ABBUS                     RAKHNA          ║
+║  \033[1;31mN4M3       : BROKEN-NADEEM            GOD ABBUS                     RAKHNA         ║
 ║  \033[1;32mRULL3X     : PATNA ON FIRE            KARNE PE                     SAB GOD         ║
 ║  \033[1;32mFORM 🏠    : BIHAR-PATNA              APPEARED                     ABBUS MANA      ║
 ║  \033[1;34mBR9ND      : MULTI POST               HATA DIYA                    HAI BILKUL      ║
 ║  \033[1;37mGitHub     : BROKEN NADEEM            JAAEGA YE                    KOI BHI HO      ║
 ║  \033[1;32mWH9TS9P    : +917209101285            BAAT YWAD                   GOD ABBUS NO     ║
 ╚═════════════════════════════════════════════════════════════════════════════════════╝
- ╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═════╝ ╚═╝     ╚═╝    ╚═╝  ╚═╝ ╚═════╝
   '''
     print(logo.center(os.get_terminal_size().columns))
 
-    print("🎉 \n\033[1;36m\033[1;91m\033[1;41m\033[1;33m\033[1;35m\033[1;37mYOU G3T APPROV3D FOR US1NG COMMAND \033[;0m\033[1;91m\033[1;92m\033[38;5;46m 🎉")
+    print(" 🎉 \n\033[1;36m\033[1;91m\033[1;41m\033[1;33m\033[1;35m\033[1;37mYOU G3T APPROV3D FOR US1NG COMMAND \033[;0m\033[1;91m\033[1;92m\033[38;5;46m 🎉")
     print("\n\033[1;35m 𝗬𝗢𝗨𝗥 𝗞𝗘𝗬 𝗦𝗘𝗡𝗗 𝗢𝗪𝗡𝗘𝗥➜ \u001b[32m "+id);time.sleep(0.1)
+     ═════════════════════════════════════════════════════════════════════════════════════
     print ('\u001b[33m' +
           '')
     try:
         httpCaht = requests.get("https://github.com/BROKEN-NADEEM/APPROVAL/blob/main/Apprvol.txt").text
         if id in httpCaht:
             print("\n\033[1;32m Congrats You get approved Successfully")
+            ═════════════════════════════════════════════════════════════════════════════════════
             msg = str(os.geteuid())
             time.sleep(1)
             pass
         else: 
             print("\n\033[1;37m YoUr KeY NOT APPROV3D PLEASE CONTACT TH3 OWNER")
+            ═════════════════════════════════════════════════════════════════════════════════════
             time.sleep(0.1)
             input('\n\n 𝗣𝗥𝟯𝗦𝗦 𝟯𝗡𝗧𝗘𝗥 𝗧𝗢 𝗦𝗘𝗡𝗗 𝗬𝗢𝗨𝗥 𝗞𝗘𝗬 𝗢𝗪𝗡𝟯𝗥 👑')
             tks = ('HELLO%20NADEEM%20SR%20!%20PLEASE%20APPROVED%20%20%20!%20MY%20KEY%20:%20'+id)
